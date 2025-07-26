@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border: 1px solid #007bff;
+  }
+  
+  /* Radio Buttons */
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #007bff;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result Display */
+  .result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f5ff;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  

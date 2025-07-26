@@ -1,0 +1,24 @@
+{
+  "canisters": {
+    "isTrueCaller_backend": {
+      "main": "src/isTrueCaller_backend/main.mo",
+      "type": "motoko"
+    },
+    "isTrueCaller_frontend": {
+      "dependencies": ["isTrueCaller_backend"],
+      "source": [
+        "src/isTrueCaller_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "isTrueCaller_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
